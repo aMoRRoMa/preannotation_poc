@@ -1,0 +1,17 @@
+{
+  "name": "preannotation_poc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.11.1"
+  },
+  "scripts": {
+    "quizJob": "bun run ./quizJob/index.ts"
+  }
+}
